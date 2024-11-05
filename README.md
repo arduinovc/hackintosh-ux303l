@@ -10,7 +10,7 @@ OpenCore version: 1.0.2
 Compatible macOS version: __Sonoma 14.x__  
 Tested with: __Monterey 12.7.3__ & __Ventura 13.x__  
 
-## How to use
+## How to use  
 
 1/ Download a release corresponding to your macOS version  
 2/ Extract it on USB stick (GPT disk with FAT32 primary partition) or EFI partition  
