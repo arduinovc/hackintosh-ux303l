@@ -33,8 +33,8 @@ MacOS Monterey is the last OS supporting natively HD4000 iGPU.
 ## Hardware
 
 __Laptop Toshiba Tecra Z50-A__  
-![Toshiba Tecra Z50](/Assets/AsusUX303L.jpeg "ASUS UX303L")  
-[Datasheet Toshiba](/Assets/Asus-UX303L-Datasheet.pdf)  
+![ASUS UX303L](/Assets/AsusUX303L.jpg "ASUS UX303L")  
+[Datasheet ASUS](/Assets/Asus-UX303L-Datasheet.pdf)  
 
 | Type	| Name                   |
 |:------|:-----------------------|
