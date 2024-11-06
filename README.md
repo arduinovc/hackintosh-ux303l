@@ -10,6 +10,8 @@ OpenCore version: 1.0.2
 Compatible macOS version: __Sonoma 14.x__  
 Tested with: __Monterey 12.7.3__ & __Ventura 13.x__  
 
+/!\ WARNING = Project in standby. No futur update planned.
+
 ## How to use  
 
 1/ Download a release corresponding to your macOS version  
@@ -56,11 +58,9 @@ System Serial : xxxxxxx
 
 ### Testing
 WIFI : ok  
-GPU : ok   
 Shutdown/Restart : ok  
 USB Port : ok  
 Sound : ok (speakers and microphone)  
-Brightness : ok  
 Webcam : ok  
 Keyboard : ok  
 Card Reader : ok  
@@ -70,27 +70,18 @@ Boot shime : ok
 
 ### Working with issue
 
+GPU : no acceleration - glitch when OCLP is applyed  
+
 ### Not-Working
 
 HDMI port: doesn't work at all. Not included in this Macbook Pro SMBIOS.  
-
-## Screenshots
-
-### macOS Monterey 12.7.1  
-Last OS with native HD4400 support (no root patch)  
-![ASUS UX303L Monterey](/Assets/Monterey.png "ASUS UX303L")
-![ASUS UX303L SystemInfo](/Assets/SystemInfo.png "ASUS UX303L")
-![ASUS UX303L SystemSettings](/Assets/SystemSettings.png "ASUS UX303L")
-![ASUS UX303L OCAuxiliaryTools](/Assets/OCAuxiliaryTools.png "ASUS UX303L")
+Brightness : not manageble  
+Keyboard backlight : doesn't work
 
 ## Work to do
 
-Improve HDMI support  
-Improve ALPS Touchpad support  
-Try to upgrade Monterey to Ventura or Sonoma : works (but need OpenCore Legacy Patcher)  
-
-## About Boot Shime
-I added boot shime. It can be disable by turning "AudioSupport" OFF in config.plist (section UEFI/Audio).  
+Fix iGPU (and dynamic brightness)  
+Fix Keyboard backlight  
 
 ## Credit
 
